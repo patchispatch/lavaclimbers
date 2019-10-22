@@ -15,7 +15,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Prueba1"
+config/name="Lavaclimbers"
 run/main_scene="res://scenes/test.tscn"
 config/icon="res://icon.png"
 

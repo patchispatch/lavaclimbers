@@ -7,7 +7,6 @@ const up = Vector2(0, -1)
 const grav = 1
 const speed = 150
 const jump_height = -500
-
 var motion = Vector2()
 var velocity = Vector2()
 
@@ -45,6 +44,5 @@ func _physics_process(delta):
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	
 	if $AnimationPlayer.current_animation != "walk":
 		$AnimationPlayer.play("walk")
